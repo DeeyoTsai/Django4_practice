@@ -1,0 +1,23 @@
+[33mcommit 62f9076456e7854d83b35c858c5e46cd730c1e25[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: deeyo <deeyo0312@gmail.com>
+Date:   Mon Dec 4 22:42:44 2023 +0800
+
+    refresh requirements.txt at office
+
+[33mcommit a45f3066a44b35ef3eaf9b99dd1f918f35acb93a[m
+Author: deeyo <deeyo0312@gmail.com>
+Date:   Mon Dec 4 15:01:54 2023 +0800
+
+    add posts and templates
+
+[33mcommit 553875ce19428e9c9b45d40362ab74efae486664[m
+Author: deeyo <deeyo0312@gmail.com>
+Date:   Sat Dec 2 15:30:43 2023 +0800
+
+    add requirements.txt
+
+[33mcommit 0b9c790ff77610698281dbaf6c9c770233930b09[m
+Author: deeyo <deeyo0312@gmail.com>
+Date:   Sat Dec 2 15:24:40 2023 +0800
+
+    first commit

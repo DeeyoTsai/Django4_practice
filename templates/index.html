@@ -1,24 +1,14 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>歡迎光臨Dave's blog</title>
-</head>
-<body>
-    <h1>歡迎光臨Dave's blog</h1>
-    <hr>
-    
+<!-- index.html -->
+
+{% extends "base.html" %}
+{% block title %}歡迎光臨Dave's blog{% endblock title %}
+{% block headmessage %}
+    <h3 style="font-family:標楷體 ;">本站文章列表</h3>
+{% endblock headmessage %}
+{% block content %}
     {% for post in posts %}
-        <p style="font-family:微軟正黑體;font-size:16pt;font-weight:bold;">
-            <a href="/post/{{post.slug}}">{{ post.title }}</a>
-        </p>       
-        <!-- <p style="font-family:微軟正黑體;font-size:10pt;letter-spacing:1pt;">
-            {{ post.body }}
-        </p>  -->
+    <p style="font-family:微軟正黑體;font-size:16pt;font-weight:bold;">
+        <a href="/post/{{post.slug}}">{{ post.title }}</a>
+    </p>       
     {% endfor %}
-        
-    <hr>
-    <h3>現在時刻:{{ now }}</h3>
-</body>
-</html>
+{% endblock content %}
